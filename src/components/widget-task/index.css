@@ -1,0 +1,28 @@
+.widget-task{
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 39px;
+    cursor: pointer;
+
+    transition: border 0.1s;
+}
+.widget-task:hover{
+    border: 1px solid #F6F6F6;
+}
+.widget-task-content{
+    display: flex;
+}
+.widget-task-delete{
+    display: none;
+    transition: 0.1s;
+
+}
+.widget-task-delete:hover {
+    color: var(--error);
+}
+.widget-task:hover .widget-task-delete{
+    display: block;
+
+}

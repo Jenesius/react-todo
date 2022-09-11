@@ -1,0 +1,28 @@
+.block-empty{
+    position: relative;
+    padding: 20px 0;
+}
+.block-empty__line{
+    height: 1px;
+    width: 100%;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+    background-color: #F5F5F5;
+}
+.block-empty__label{
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--light);
+    padding: 2px 20px;
+
+    background-color: white;
+}

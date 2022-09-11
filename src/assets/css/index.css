@@ -1,0 +1,20 @@
+* {
+    --primary: #60E385;
+    --error: #e56262;
+}
+.button{
+    outline: none;
+    cursor: pointer;
+}
+.button_md{
+    padding: 6px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.button_primary{
+    background: var(--primary);
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    color: white;
+}
